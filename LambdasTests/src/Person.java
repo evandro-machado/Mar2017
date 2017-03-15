@@ -3,7 +3,7 @@ import java.util.Random;
 public class Person {
 	private String name;
 	private String gender;
-	private int age;
+	private Integer age;
 	
 	public Person(String name, String gender, int age) {
 		super();
@@ -23,10 +23,10 @@ public class Person {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 	
