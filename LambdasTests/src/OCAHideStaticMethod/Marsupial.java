@@ -12,4 +12,8 @@ public class Marsupial {
 	public void getMarsupialOverridenDescription(){
 		System.out.println("Marsupial walks on two legs: " + isBiped());
 	}
+	
+	public void sayHi(){
+		System.out.println("Marsupial says hi!");
+	}
 }

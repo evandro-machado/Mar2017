@@ -13,6 +13,11 @@ public class Kangaroo extends Marsupial {
 		System.out.println("Kangaroo hops on two legs: " + isBiped());
 	}
 	
+	public void sayHi(){
+		System.out.println("Kangaroo says hi!");
+		super.sayHi();
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("Testing hidden methods:");
 		
@@ -22,6 +27,7 @@ public class Kangaroo extends Marsupial {
 		System.out.println("Testing overriden methods:");
 		joey.getMarsupialOverridenDescription();
 		joey.getKangarooOverridenDescription();
-		
+		Marsupial test = new Kangaroo();
+		test.sayHi();
 	}
 }
